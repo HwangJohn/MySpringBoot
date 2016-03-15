@@ -25,7 +25,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RestController
 public class HelloController {
 
-	private static final String STAT0001_PAGE_NAME = "index";
+	private static final String STAT0001_PAGE_NAME = "index.html";
 
 
 	@RequestMapping(value="", method= RequestMethod.GET)
